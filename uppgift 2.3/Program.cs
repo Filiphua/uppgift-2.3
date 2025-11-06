@@ -6,8 +6,9 @@ namespace uppgift_2._3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ange antal dagar du ska hyra bilen och antal km du kommer att köra"");
+            Console.WriteLine("hur många dagar kommer du att hyra bilen?");
             int dag= int.Parse(Console.ReadLine());
+            Console.WriteLine("hur många km kommer du att köra?");
             int antalkm = int.Parse(Console.ReadLine());
             Console.WriteLine("Startupgift: 300 kr ");
             Console.WriteLine("Kostnad 1 kr per km:" + antalkm);
