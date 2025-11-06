@@ -7,7 +7,6 @@ namespace uppgift_2._3
         static void Main(string[] args)
         {
             Console.WriteLine("Ange antal dagar du ska hyra bilen och antal km du kommer att köra"");
-            Console.WriteLine("skriv ett tal till dagar och km");
             int dag= int.Parse(Console.ReadLine());
             int antalkm = int.Parse(Console.ReadLine());
             Console.WriteLine("Startupgift: 300 kr ");
